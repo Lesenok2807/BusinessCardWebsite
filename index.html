@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="style.css">
+    <title>Business card website</title>
+</head>
+<body>
+    <header class="header">        
+        <a class="item__button" href="#">Позвонить</a>
+        <nav class="nav">
+            <a class="nav__item" href="#">Мои навыки</a>
+            <a class="nav__item" href="#">Оставить заявку</a>
+        </nav>
+        <div class="hamburger-nav">
+            <input type="checkbox" id="nav__toggle">
+            <label for="nav__toggle" class="nav__btn">
+                <span></span>
+            </label>
+            <ul class="nav__box">
+                <li><a class="nav__item" href="#">Мои навыки</a></li>
+                <li><a class="nav__item" href="#">Оставить заявку</a></li>
+            </ul>
+        </div>
+    </header>    
+    <div class="container-top">       
+        <div class="text">
+            <h1 class="text__title">Разработка сайтов, игр и приложений</h1>
+            <p class="text__subtitle">Помогаю воплощать мечты в реальность</p>
+        </div>        
+    </div>
+    <div class="container-middle">
+        <h1 class="title">Почему вам стоит обратиться ко мне</h1>
+        <div class="content">
+            <div class="content__box">
+                <img class="icon_content" src="img/icon 1.svg" alt="Картинка сердечко">
+                <h1 class="content__title">Индивидуальный подход</h1>
+                <p class="content__text">Каждый клиент<br>для меня особенный.<br>Я тщательно изучаю,<br>что ему необходимо,прежде,<br>чем приступить к работе.</p>
+            </div>
+            <div class="content__box">
+                <img class="icon_content" src="img/icon 2.svg" alt="Картинка копилка">
+                <h1 class="content__title">Разумные<br>цены</h1>
+                <p class="content__text">Я предлагаю выгодные цены за&#160;безупречное выполнение работы&#160;и&#160;соблюдение&#160;сроков.</p>
+            </div>
+            <div class="content__box">
+                <img class="icon_content" src="img/icon 3.svg" alt="Картинка медаль">
+                <h1 class="content__title">Отличный результат!</h1>
+                <p class="content__text">Я внимательно работаю<br>над каждым проектом. Я&#160;очень&#160;люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
+            </div>               
+        </div>
+        <a class="content__button" href="#">Получить консультацию</a>
+    </div>
+    <div class="container-center">
+        <h1 class="title">Что я могу</h1>
+        <div class="skill"> 
+            <div class="slider">
+                <input class="btn_switch" type="radio" name="switch" id="btn1" checked >
+                <input class="btn_switch" type="radio" name="switch" id="btn2">
+                <input class="btn_switch" type="radio" name="switch" id="btn3">
+                <div class="switch">
+                    <label for="btn1"></label>
+                    <label for="btn2"></label>
+                    <label for="btn3"></label>
+                </div>                       
+                <div class="slider-inner">
+                    <div class="slides">
+                        <div class="slide1">
+                            <img class="img__left01" src="img/img 1.jpg" alt="Картинка компьютер" width="175px" height="175px">
+                            <div class="text__skill_left">
+                                <h3>Я умею писать валидный и&#160;семмантически верный код для&#160;вашего&#160;сайта или&#160;приложения</h3>
+                                <p class="content__text">Ваш сайт и приложение<br>будут верно&#160;работать, благодаря моей верстке</p>
+                            </div>                
+                        </div>
+                        <div class="slide2">                
+                            <div class="text__skill_right">
+                                <h3>Я умею создавать игры и&#160;анимации с помощью JavaScript</h3>
+                                <p class="content__text">Я свободно владею языком JavaScript<br>и могу "оживить" ваш сайт и приложение</p>
+                            </div>
+                            <img class="img__right" src="img/img 2.jpg" alt="Картинка JS" width="175px" height="175px">               
+                        </div>
+                        <div class="slide3">
+                            <img class="img__left02"src="img/img 3.jpg" alt="Картинка React" width="175px" height="175px">
+                            <div class="text__skill_left">
+                                <h3>Я умею создавать приложения с&#160;помощью React</h3>
+                                <p class="content__text">Благодаря моим навыкам, ваш сайт<br>и приложение будут максимально<br>удобными в использовании</p>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>                                              
+        </div>              
+    </div>
+    <div class="container-form">
+        <h1 class="title">Есть вопросы?</h1>
+        <img class="img__form" src="img/img 4.svg" alt="Картинка ?" width="175px" height="175px">
+        <p class="form__text">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p> 
+        <div class="form">
+            <div class="form__box">
+                <input class="form__box_item" type="text" placeholder="Имя и фамилия" id="name">
+                <input class="form__box_item" type="tel" placeholder="Номер телефона" id="name">
+                <input class="form__box_item" type="email" placeholder="e-mail" id="email">                
+            </div>
+            <input class="form__btn" type="button" value="Отправить">
+        </div>
+    </div>
+    <div class="footer">
+        <p class="footer__text">Меня можно найти в социальных сетях:</p>
+        <div class="footer__box">
+            <img class="footer__box_item" src="img/linkedin.svg" alt="Иконка IN ">
+            <img class="footer__box_item" src="img/instagram.svg" alt="Иконка инстаграмма">
+            <img class="footer__box_item" src="img/facebook.svg" alt="Иконка фейсбука">
+        </div>
+        <p class="footer__text">2020 &#169; WebHero School</p>
+    </div>    
+</body>
+</html>
